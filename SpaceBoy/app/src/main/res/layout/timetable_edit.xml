@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.imy320.spaceboy.TimeTableFrag"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Time Table Item Name"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Time Table Item Color"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="41dp"
+         />
+
+
+
+        <HorizontalScrollView
+            android:layout_width="105dp"
+            android:layout_height="120dp"
+            android:id="@+id/horizontalScrollView"
+            android:layout_gravity="center_horizontal">
+            <RelativeLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+            <Button
+                android:id="@+id/reddot"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/reddot"
+                android:onClick="Color"
+                android:layout_alignParentLeft="true"
+                />
+            <Button
+                android:id="@+id/orangedot"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/orangedot"
+                android:onClick="Color"
+                android:layout_alignTop="@+id/reddot"
+                android:layout_toRightOf="@+id/reddot"
+                android:layout_marginRight="0dp"
+                 />
+            <Button
+                android:id="@+id/yellowdot"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/yellowdot"
+                android:onClick="Color"
+                android:layout_alignTop="@+id/reddot"
+                android:layout_toRightOf="@+id/orangedot"
+                android:layout_marginRight="0dp"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/pinkdot"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/pinkdot"
+                android:onClick="Color"
+                android:layout_alignTop="@+id/reddot"
+                android:layout_toRightOf="@+id/yellowdot"
+                android:layout_marginRight="0dp"
+                />
+
+
+            <Button
+                android:id="@+id/greendot"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/greendot"
+                android:onClick="Color"
+                android:layout_alignTop="@+id/reddot"
+                android:layout_toRightOf="@+id/pinkdot"
+
+               />
+
+
+            <Button
+                android:id="@+id/bluedot"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/bluedot"
+                android:onClick="Color"
+                android:layout_marginRight="10dp"
+                android:layout_alignTop="@+id/reddot" android:layout_toRightOf="@+id/greendot"
+                 />
+
+
+            <Button
+                android:id="@+id/indegodot"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/indegodot"
+                android:onClick="Color"
+                android:layout_marginRight="10dp"
+                android:layout_alignTop="@+id/reddot"
+                android:layout_toRightOf="@+id/bluedot"
+                 />
+
+
+            <Button
+                android:id="@+id/purpledot"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/purpledot"
+                android:onClick="Color"
+                android:layout_alignTop="@+id/reddot"
+                android:layout_toRightOf="@+id/indegodot"
+                android:layout_marginRight="10dp"
+                />
+
+            <Button
+                android:id="@+id/geydot"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/greydot"
+                android:onClick="Color"
+                android:layout_column="3"
+                android:layout_toRightOf="@+id/purpledot"
+                android:layout_alignTop="@+id/reddot"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+               />
+
+            <Button
+                android:id="@+id/browndot"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/browndot"
+                android:onClick="Color"
+                android:layout_column="21"
+                android:layout_alignTop="@+id/reddot"
+                android:layout_toRightOf="@+id/geydot"
+                android:layout_marginTop="10dp" />
+            </RelativeLayout>
+        </HorizontalScrollView>
+</LinearLayout>
+
+
+

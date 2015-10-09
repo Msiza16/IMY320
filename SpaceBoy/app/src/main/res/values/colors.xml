@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#3F51B5</color>
+    <color name="accentColor">#00BFA5</color>
+    <color name="primaryColorDarker">#303F9F</color>
+    <color name="windowColor">#FFF</color>
+    <color name="textColor">#000</color>
+    <color name="cellColor">#FFF</color>
+    <color name="darkColor">#212121</color>
+    <color name="lighterPrime">#9FA8DA</color>
+    <color name="Tranparent">#00000000</color>
+    <!-- #212121-->
+    <!-- Colors For Color Picker-->
+    <color name="red">#F44336</color>
+    <color name="blue">#2196F3</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="green">#4CAF50</color>
+    <color name="purple">#9C27B0</color>
+    <color name="pink">#EC407A</color>
+    <color name="orange">#FF9800</color>
+    <color name="brown">#795548</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="grey">#AAA</color>
+</resources>

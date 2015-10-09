@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.imy320.spaceboy.MainActivity">
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/round_btn"
+        android:id="@+id/Calendarbtn"
+        android:onClick="Cal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="110dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/round_btn"
+        android:onClick="TimeT"
+        android:id="@+id/TtimeBtn"
+        android:layout_alignTop="@+id/Calendarbtn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/round_btn"
+        android:id="@+id/NTaskbtn"
+        android:onClick="NewTask"
+        android:layout_alignTop="@+id/TtimeBtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
