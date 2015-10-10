@@ -21,9 +21,9 @@ public class TimeTable {
         table[0][2]="Tuesday";
         table[0][3]="Wednesday";
         table[0][4]="Thursday";
-        table[0][5]="Fridday";
-        table[0][6]="Saterday";
-        table[0][7]="Sundayday";
+        table[0][5]="Friday";
+        table[0][6]="Saturday";
+        table[0][7]="Sunday";
 
         t.setTaskTime(7,30,0);
         for (int i=1;i<10;i++)

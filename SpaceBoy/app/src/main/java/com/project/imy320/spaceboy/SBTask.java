@@ -28,10 +28,10 @@ package com.project.imy320.spaceboy;
     }
 
     public void SetTask(String tn, String td, String ti, int h, int m, int s) {
-        this.TaskID = ti;
-        this.TaskName = tn;
-        this.TaskID = td;
-        this.tTime.setTaskTime(h, m, s);
+            this.TaskID = ti;
+            this.TaskName = tn;
+            this.TaskID = td;
+            this.tTime.setTaskTime(h, m, s);
     }
 
     public String getTaskName() {

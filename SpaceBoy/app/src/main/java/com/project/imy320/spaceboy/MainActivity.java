@@ -55,10 +55,8 @@ public class MainActivity extends AppCompatActivity {
     public void TimeT(View v) {
         displayView(2);
     }
-    public void NewTask(View v)
-    {
-        displayView(0);
-    }
+    public void NewTask(View v) {displayView(0);}
+    public void TaskList(View v) {displayView(3);}
     private void displayView(int position) {
         fragment= null;
         String title = getString(R.string.app_name);
@@ -79,11 +77,11 @@ public class MainActivity extends AppCompatActivity {
                 fragment = new buttonFragClass();
                 //title = getString(R.string.title_images);
                 break;
-            case 4:/*
-                fragment = new TakePictureFragment();
-                title = getString(R.string.title_take_pictures);
+            case 4:
+                fragment = new TaskListFrag();
+             //   title = getString(R.string.title_take_pictures);
                 break;
-            case 5:
+         /*   case 5:
                 fragment = new SettingFragment();
                 title = getString(R.string.title_settings);
                 break;*/
